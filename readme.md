@@ -8,6 +8,7 @@ git clone https://github.com/bvermeulen/fusionchart_example
 The tree structure should look like:
 
 ![tree|379x500](tree.png)
+
 go to this folder and create a virtual environment for Django, note I work with Python 3.6.8, but likely other python 3.6 or 3.7 would work ok as well.
 ```
 python -m venv ./venv
