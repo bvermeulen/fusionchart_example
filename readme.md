@@ -65,7 +65,7 @@ python manage.py runserver
 ````
 and view the result in your browser at `127.0.0.1:8000` that should look like:
 
-![Screenshot%20from%202019-07-08%2015-07-44|690x405](upload://r8ZJioj9layklKIn3SCPBLdrxf8.png)
+![Screenshot|690x405](Screenshot.png)
 
 You can review the source code when you have cloned my github, especially `settings.py`, but I give `urls.py`,  `views.py` and `chart.html` below as first reference.
 
