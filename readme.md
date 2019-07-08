@@ -125,3 +125,7 @@ chart.html:
 </html>
 ```
 Fusioncharts says this is a trial version, so better check if any costs are involved. Let me know if you need any more info. Good luck...
+
+Bruno Vermeulen
+bruno.vermeulen@hotmail.com
+8 July 2019
