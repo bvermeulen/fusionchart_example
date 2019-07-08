@@ -1,4 +1,4 @@
-Sure you can use FusionCharts to render charts in html. I have followed the following  [instructions](https://www.fusioncharts.com/dev/getting-started/django/your-first-chart-using-django) and tweaked here and there to make it work. To replicate just do the following:
+You can use FusionCharts to render charts in html. I have followed the following  [instructions](https://www.fusioncharts.com/dev/getting-started/django/your-first-chart-using-django) and tweaked here and there to make it work. To replicate just do the following:
 
 copy my github code, this will create an new project directory `fusionchart_example`.
 
@@ -39,7 +39,7 @@ git clone https://github.com/bvermeulen/fusionchart_example
 ```
 The tree structure should look like:
 
-![tree|379x500](upload://4O5kDMxkp77RH699B94WC91oIDb.png)
+![tree|379x500](Screenshot.png)
 go to this folder and create a virtual environment for Django, note I work with Python 3.6.8, but likely other python 3.6 or 3.7 would work ok as well.
 ```
 python -m venv ./venv
