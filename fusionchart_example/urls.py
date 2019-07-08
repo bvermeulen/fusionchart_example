@@ -18,7 +18,6 @@ from django.urls import path
 from render_graph import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', views.chart, name='chart'),
 
 ]

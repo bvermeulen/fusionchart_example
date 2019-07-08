@@ -42,7 +42,9 @@ def chart(request):
     for key, value in chartData.items():
         dataSource["data"].append({'label':key, 'value': value})
 
+    # print the datasource to see what will be rendered
     pprint(dataSource)
+
     # Create an object for the column 2D chart using the FusionCharts class constructor
     # The chart data is passed to the `dataSource` parameter.
     column2D = FusionCharts("column2d", "Oil_Reserves", "600", "400", "Oil_Reserves-container", "json", dataSource)
