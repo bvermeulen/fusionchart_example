@@ -33,39 +33,7 @@ python manage.py runserver
 ````
 and view the result in your browser at `127.0.0.1:8000` that should look like:
 
-	Sure you can use FusionCharts to render charts in html. I have followed the following  [instructions](https://www.fusioncharts.com/dev/getting-started/django/your-first-chart-using-django) and tweaked here and there to make it work. To replicate just do the following:
-
-copy my github code, this will create an new project directory `fusionchart_example`.
-
-```
-git clone https://github.com/bvermeulen/fusionchart_example
-```
-The tree structure should look like:
-
 ![tree|379x500](Screenshot.png)
-go to this folder and create a virtual environment for Django, note I work with Python 3.6.8, but likely other python 3.6 or 3.7 would work ok as well.
-```
-python -m venv ./venv
-```
-activate the environment (Linux)
-```
-source ./venv/bin/activate
-```
-(or Windows)
-```
-./venv/scripts/activate
-```
-with the virtual environment enabled install Django
-```
-pip install django==2.2.3
-```
-You can now run the app
-```
-python manage.py runserver
-````
-and view the result in your browser at `127.0.0.1:8000` that should look like:
-
-![Screenshot|690x405](Screenshot.png)
 
 You can review the source code when you have cloned my github, especially `settings.py`, but I give `urls.py`,  `views.py` and `chart.html` below as first reference.
 
