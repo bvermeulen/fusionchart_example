@@ -1,3 +1,5 @@
+## Fusionchart example ##
+
 You can use FusionCharts to render charts in html. I have followed the following  [instructions](https://www.fusioncharts.com/dev/getting-started/django/your-first-chart-using-django) and tweaked here and there to make it work. To replicate just do the following:
 
 copy my github code, this will create an new project directory `fusionchart_example`.
